@@ -1,6 +1,6 @@
 <template lang="html">
   <div v-if='beer'>
-    <h2>{{beer.name}}</h2>
+    <h3>{{beer.name}}</h3>
 
     <div id="fav">
       <button v-on:click="handleClick">Add to Favourites</button>

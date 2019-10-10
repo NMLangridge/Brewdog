@@ -1,6 +1,7 @@
 <template lang="html">
   <div>
-    <h1>Beers</h1>
+    <h1>Brewdog</h1>
+    <h2>Beer Menu</h2>
     <beers-list :beers='beers'></beers-list>
     <beer-detail :beer='selectedBeer'></beer-detail>
     <favourite-beers :beers='favouriteBeers'></favourite-beers>
