@@ -5,9 +5,12 @@
     <p>Tagline: {{beer.tagline}}</p>
     <p>First Brewed: {{beer.first_brewed}}</p>
     <p>Description: {{beer.description}}</p>
-    <p>Alcohol Level: {{beer.abv}}</p>
-    <p>Food Pairing: {{beer.food_pairing}}</p>
-    <p>Image: {{beer.image_url}}</p>
+    <p>Alcohol Level: {{beer.abv}}%</p>
+    <p>Food Pairing: </p>
+    <ul v-for="food_pairing in beer.food_pairing">
+      <li>{{food_pairing}}</li>
+    </ul>
+    <img :src="beer.image_url" :alt="beer.name">
   </div>
 </template>
 
