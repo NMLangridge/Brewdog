@@ -17,7 +17,4 @@ export default {
 </script>
 
 <style lang="css" scoped>
-h2 {
-  color: green;
-}
 </style>

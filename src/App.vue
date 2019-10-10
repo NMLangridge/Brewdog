@@ -34,6 +34,7 @@ export default {
     eventBus.$on('favourite-beers', (beer) => {
       this.favouriteBeers.push(beer);
     })
+
   },
   components: {
     "beers-list": BeersList,

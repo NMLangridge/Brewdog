@@ -3,7 +3,7 @@
     <h2>{{beer.name}}</h2>
 
     <div id="fav">
-      <button v-on:click="handleClick">Favourite</button>
+      <button v-on:click="handleClick">Add to Favourites</button>
     </div>
 
     <p>Tagline: {{beer.tagline}}</p>
