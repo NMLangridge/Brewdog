@@ -1,5 +1,5 @@
 <template lang="html">
-  <div v-if='beers'>
+  <div id="fav" v-if='beers'>
     <h2>Favourites</h2>
     <ul>
       <li v-for='favourite in beers'>{{favourite.name}}</li>
@@ -17,4 +17,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+#fav {
+  position: absolute;
+  right: 50%;
+  top: 55px;
+}
 </style>
